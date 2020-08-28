@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint_0 Assigment</title>
+    <style>
+      h1 {
+        font-weight: lighter;
+        font-size: 3.5em;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clarusway Survey Form</h1>
+    <span style="font-size: larger">
+      Thank you for taking time to help us improve the platform</span
+    ><br /><br />
+
+    <form id="forms">
+      <label for="fname"> Name </label> <br /><br />
+      <input type="text" name="name" id="fname" placeholder="Enter your name" />
+      <br />
+
+      <label for="lname"> Surname </label><br /><br />
+      <input
+        type="text"
+        name="surname"
+        id="lname"
+        placeholder="Enter your Surname"
+      />
+      <br />
+
+      <label for="e_mail"> Email </label><br /><br />
+      <input
+        type="email"
+        name="e-mail"
+        id="e_mail"
+        placeholder="user@clarusway.com"
+      />
+      <br />
+      <label for="crole" style="font-size: larger"
+        >Which option best describes your current role?</label
+      ><br /><br />
+      <select name="roles" id="crole">
+        <option value="">Select current role</option>
+        <option value="Full-Stack">Full-Stack</option>
+        <option value="Data Science">Data Science</option>
+        <option value="AWS">AWS</option>
+        <option value="DevOps">DevOps</option>
+      </select>
+      <br /><br />
+      <label style="font-size: larger">
+        Would you recommend Clarusway to a friend?
+      </label>
+      <br /><br />
+      <input type="radio" name="recommend" id="rec" checked /> Definitly, Yes
+      <br /><br /><input type="radio" name="recommend" id="rec" /> Maybe
+      <br /><br /><input type="radio" name="recommend" id="rec" /> Not sure
+      <br /><br /><input type="radio" name="recommend" id="rec" /> Definitly, No
+
+      <br /><br />
+      <label style="font-size: larger"
+        >What is your favorite feature of Clarusway
+      </label>
+      <br /><br />
+      <select name="Options">
+        <option value="Option">Select an option</option>
+
+        <option value="Interactive">Interactive Education</option>
+        <option value="Continuosly">Contionusly Improving</option>
+        <option value="Well-equipment">Well-Equipment</option>
+        <option value="Professional">Pro Teachers</option>
+      </select>
+      <br />
+      <label style="font-size: larger"
+        >What would you like to see improved?(Check all that apply)</label
+      ><br /><br />
+      <input type="checkbox" name="checkbox" />Front-end projects <br /><br />
+      <input type="checkbox" name="checkbox" />Back-end projects <br /><br />
+      <input type="checkbox" name="checkbox" />Data Science <br /><br />
+      <input type="checkbox" name="checkbox" />Additional Courses <br /><br />
+      <label style="font-size: larger">Any comments or suggestions? </label>
+      <br /><br />
+      <textarea name="textarea" cols="20" rows="2">
+Enter your comment here..Thanks for your feed back</textarea
+      >
+
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </body>
+</html>
