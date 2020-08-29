@@ -65,7 +65,7 @@ label {
 h1 {
   color: red;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  /* font-variant-caps: small-caps; */
+  font-variant: small-caps;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
 }
