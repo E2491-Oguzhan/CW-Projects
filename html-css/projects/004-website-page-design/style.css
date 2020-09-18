@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 100%;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+/* navvar */
+
+nav {
+  background-color: #35424a;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 3.5px solid #a9508b;
+}
+.left-nav {
+  float: left;
+  padding-top: 0.5rem;
+  margin-left: 55px;
+}
+#nav-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: #fff;
+}
+#nav-heading > span {
+  color: #a9508b;
+}
+.nav-links {
+  float: right;
+  margin-right: 55px;
+}
+.nav-links .nav-item {
+  float: left;
+  margin: 0.4rem;
+}
+#plink {
+  color: #a9508b;
+}
+#plink:hover {
+  color: #ccc;
+}
+.nav-links .nav-link {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  display: block;
+  padding: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+.nav-links .nav-link:hover {
+  color: #ccc;
+}
+/* header */
+#bg-img {
+  background-image: url(./img/showcase.jpg);
+  min-height: 400px;
+  background-attachment: fixed;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  padding-top: 100px;
+  font-size: 5.5rem;
+  line-height: 8.3rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.heading > p {
+  margin-right: 10rem;
+  margin-left: 10rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.subscribe-newsletter {
+  background-color: #35424a;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 3.4rem;
+  padding: 3rem;
+  overflow: hidden;
+}
+.subscribe {
+  float: left;
+  margin-left: 55px;
+}
+.e-mail {
+  float: right;
+  margin-right: 55px;
+}
+input[type="email"] {
+  padding: 0.7rem;
+  width: 250px;
+}
+input[type="submit"] {
+  padding: 0.9rem;
+  color: #ffffff;
+  background-color: #a9508b;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  transition: 0.8s;
+  box-shadow: 0 0 7px 0 #a9508b;
+}
+.content {
+  display: flex;
+  text-align: center;
+}
+.content img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+.img-container {
+  margin-top: 40px;
+}
+.img-container > p {
+  margin-top: 15px;
+}
+footer {
+  text-align: center;
+  background-color: #fffaf0;
+  border-top: 3.5px solid #a9508b;
+  margin-top: 50px;
+}
+footer > span {
+  display: block;
+  margin-top: 20px;
+}
