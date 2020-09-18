@@ -156,3 +156,7 @@ footer > span {
   display: block;
   margin-top: 20px;
 }
+#footer-img {
+  display: inline-block;
+  padding-bottom: 20px;
+}
